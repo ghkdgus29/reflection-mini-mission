@@ -66,4 +66,9 @@ public class User {
             return false;
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "[name : " + name + ", age : " + age + " ]";
+    }
 }
